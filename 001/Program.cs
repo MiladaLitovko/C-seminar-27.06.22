@@ -1,4 +1,8 @@
-﻿Random rand = new Random();
+﻿/*9. Напишите программу, которая выводит
+случайное число из отрезка [10, 99] и показывает
+наибольшую цифру числа.*/
+
+Random rand = new Random();
 int number = rand.Next(10, 100);
 Zadacha9(number);
 
